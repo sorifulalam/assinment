@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  border: 0;
+}
+/* primary color */
+.primary-color {
+  color: #f15b22;
+}
+/* button */
+.banner-btn {
+  height: 60px;
+  color: #ffffff;
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px 35px;
+  margin-top: 30px;
+  float: right;
+}
+/* header banner imag  */
+.header-banner {
+  background-image: url("../img/banner1.png");
+  width: 1600px;
+  height: 808px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.banner-control {
+  padding: 170px;
+}
+/* banner pharagrap titel */
+.banner-titel {
+  font-size: 65px;
+  font-weight: 700;
+  text-align: Right;
+  color: #151414;
+}
+/* banner pharagrap description */
+.banner-description {
+  text-align: right;
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+/* max width this main component */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.failures-section-container {
+  display: flex;
+}
+/* failures img */
+.failures-img {
+  background-image: url("../img/person.png");
+  width: 569px;
+  height: 723.3px;
+  margin-top: 130px;
+}
+.failures-section-content {
+  width: 500px;
+  margin-left: 85px;
+}
+.failures-section-titel {
+  font-size: 40px;
+  margin-top: 370px;
+  font-weight: 700;
+  color: #151414;
+  margin-bottom: 24px;
+}
+.failures-section-decricption {
+  font-size: 16px;
+  font-weight: 600;
+  color: #444343;
+}
